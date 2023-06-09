@@ -1,0 +1,60 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/georgie-cobbs-muOHbrFGEQY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  text-align: center;
+}
+
+#Hero-Section h1{
+  color: rgb(67, 3, 3);
+}
+
+#Hero-Section p{color:rgb(255, 255, 255); text-align:justify;}
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 200;
+  }
+
+  .navbar-brand{ width:100px;
+   
+    
+  }
+
+}
+.logo{width:120px;}
+
+.container svg{width:50px;
+  height:50px;
+  color:rgb(8, 113, 111);
+}
+.boton{text-align: center;}
+.rounded-circle{width:100px;
+<<<<<<< HEAD
+height:100px;}
+=======
+height:100px;
+text-align: center;}
+>>>>>>> 82b2a72da9568ee61ae82b53dcd24d205a961095
